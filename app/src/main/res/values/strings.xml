@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Registro</string>
+    <string name="Titulo">Ingrese los siguientes datos</string>
+    <string name="nom_completo">Nombre completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">E-mail</string>
+    <string name="descripcion">Descripción del contacto</string>
+    <string name="fecha">Fecha de nacimiento</string>
+    <string name="fecha_">Fecha de nacimiento:</string>
+    <string name="telefono_">Teléfono:</string>
+    <string name="email_">E-mail:</string>
+    <string name="descripcion_">Descripción:</string>
+    <string name="next">Siguiente</string>
+    <string name="editar">Editar contacto</string>
+    <string name="fecha_ini">01/01/1990</string>
+    <string name="confirma">Confirmar datos</string>
+    <dimen name="hor_margin">30dp</dimen>
+    <dimen name="hor_margin_mini">15dp</dimen>
+    <dimen name="ver_margin">7dp</dimen>
+    <dimen name="ver_margin_max">15dp</dimen>
+    <dimen name="Texto_fecha">18dp</dimen>
+    <dimen name="Texto_titulo">16dp</dimen>
+    <dimen name="Texto_confirma">25dp</dimen>
+    <dimen name="Texto_textv">12dp</dimen>
+</resources>

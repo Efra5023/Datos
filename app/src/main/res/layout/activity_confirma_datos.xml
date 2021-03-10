@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmaDatos"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Confirma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="@dimen/ver_margin_max"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:text="@string/confirma"
+        android:textSize="@dimen/Texto_confirma"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ConfirmaNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/hor_margin"
+        android:fontFamily="@font/gloria_hallelujah"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/hor_margin_mini"
+        android:layout_marginVertical="@dimen/ver_margin_max"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ConfirmaFechaTexto"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/fecha_"
+            android:layout_marginHorizontal="@dimen/hor_margin_mini"
+            android:fontFamily="@font/gloria_hallelujah"
+            />
+        <TextView
+            android:id="@+id/ConfirmaFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gloria_hallelujah"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/hor_margin_mini"
+        android:layout_marginVertical="@dimen/ver_margin_max"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ConfirmaTelefonoTexto"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/telefono_"
+            android:layout_marginHorizontal="@dimen/hor_margin_mini"
+            android:fontFamily="@font/gloria_hallelujah"
+            />
+        <TextView
+            android:id="@+id/ConfirmaTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gloria_hallelujah"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/hor_margin_mini"
+        android:layout_marginVertical="@dimen/ver_margin_max"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ConfirmaEmailTexto"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/email_"
+            android:layout_marginHorizontal="@dimen/hor_margin_mini"
+            android:fontFamily="@font/gloria_hallelujah"
+            />
+        <TextView
+            android:id="@+id/ConfirmaEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gloria_hallelujah"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/hor_margin_mini"
+        android:layout_marginVertical="@dimen/ver_margin_max"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ConfirmaDescripcionTexto"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/descripcion_"
+            android:layout_marginHorizontal="@dimen/hor_margin_mini"
+            android:fontFamily="@font/gloria_hallelujah"
+            />
+        <TextView
+            android:id="@+id/ConfirmaDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gloria_hallelujah"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BotonEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/editar"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:backgroundTint="@color/boton"
+     />
+
+</LinearLayout>
